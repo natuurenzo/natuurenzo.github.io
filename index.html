@@ -8,6 +8,7 @@
 <script src="js/Respond.js"></script>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="index.js"></script>
 </head>
 <body>
    <!-- menu navbar with dropdown menu -->
@@ -86,20 +87,5 @@
       <button id="button1" class="btn btn-success">CREATE DATABASE</button>
    </div>
    <!-- javascript goes under here -->
-   <script>
-      var db;
-
-$('#button1').click(function (key){
-  
- var storage = window.localStorage;
- var value = storage.getItem(key); // Pass a key name to get its value.
- storage.setItem(key, value) // Pass a key name and its value to add or update that key.
- storage.removeItem(key) // Pass a key name to remove that key from storage.
-
-  
- alert("database was created");
-  
-});
-   </script>
 </body>
 </html>
