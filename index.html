@@ -7,8 +7,7 @@
 <link href="css/index.css" rel="stylesheet">
 <script src="js/Respond.js"></script>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/bootstrap.min.js"></script>  
-   <script src="index.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
    <!-- menu navbar with dropdown menu -->
@@ -86,5 +85,17 @@
       </div>
       <button id="button1" class="btn btn-success">CREATE DATABASE</button>
    </div>
+   <!-- javascript goes under here -->
+   <script>
+      var db;
+
+$('#button1').click(function (){
+  
+  db = openDatabase("Motorola", "1.0", "Moto Mobile Database", "200000");
+  
+  alert("database was created");
+  
+});
+   </script>
 </body>
 </html>
