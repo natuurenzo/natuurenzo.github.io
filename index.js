@@ -1,9 +1,10 @@
-var db;
+var fname = document.getElementById("fname");
+var lname = document.getElementById("lname");
+var country = document.getElementById("country");
+localStorage.setItem("Firstname",fname.value);
+localStorage.setItem("Lastname",lname.value);
+localStorage.setItem("Country",country.value);
 
-$('#button1').click(function (){
-  
-  db = openDatabase("Motorola", "1.0", "Moto Mobile Database", "200000");
-  
-  alert("database was created");
-  
-});
+for(var i = 0; i < localStorage.key(); i++){
+  document.write('<table class="table table-bordered table-striped table-hover table-condensed"><thead><tr><th>'+localStorage.key(1)+"</th><th>"+localStorage.key(2)+"</th>"+localStorage.key(0)+"</th></thead>");
+}
