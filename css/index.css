@@ -1,5 +1,5 @@
 #memory_board {
-  background-color:magenta;
+  background-color:green;
   border-radius:10px;
   box-shadow:2px 2px 2px 2px;
   animation:bg 5s linear infinite;
@@ -8,7 +8,7 @@
 }
 
 @keyframes bg {
-  0%{background-color:red;}
+  0%{background-color:green;}
   25%{background-color:blue;}
   50%{background-color:purple;}
   75%{background-color:yellow;}
