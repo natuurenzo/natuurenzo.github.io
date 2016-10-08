@@ -16,7 +16,7 @@ function newBoard(){
 	var output = '';
     memory_array.memory_tile_shuffle();
 	for(var i = 0; i < memory_array.length; i++){
-		output += '<div id="tile_'+i+'" onclick="memoryFlipTile(this,\''+memory_array[i]+'\')" class="col-lg-2"></div>';
+		output += '<div id="tile_'+i+'" onclick="memoryFlipTile(this,\''+memory_array[i]+'\')" class="col-lg-2 col-md-2 col-sm-3 col-xs-4"></div>';
 	}
 	document.getElementById('memory_board').innerHTML = output;
 }
