@@ -1,4 +1,4 @@
-window.onload = function(){
- var imgprops = document.getElementById("imgprops").src;
- imgprops.className += "img img-responsive img-rounded";
-}
+$("document").ready(function() {
+   $("#imgprops").addClass("img img-rounded img-responsive");
+   alert("Here I am!"); //This alert will go when I figure this out, I just added it to see if it pops up (it does).
+});
