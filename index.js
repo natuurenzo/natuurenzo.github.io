@@ -20,3 +20,4 @@ function NewBoard(){
  }
  document.getElementById("memory_board").innerHTML = output;
 }
+window.addEventListener('load', NewBoard);
