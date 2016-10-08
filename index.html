@@ -25,7 +25,7 @@
                <div>
                   <h1>{this.props.title}</h1>
                   <blockquote>
-                     <img src={this.props.src} />
+                     <img src={this.props.src} width="150px"/>
                      <h2>{this.props.genre}</h2>
                   </blockquote>
                </div>
@@ -34,9 +34,9 @@
       
       });
       
-      ReactDOM.render(<Movie title="Avatar" genre="Action or Familie" src="avatar.jpg"/>, document.getElementById("movie1"));
-      ReactDOM.render(<Movie title="Suicide Squad" genre="Action or Horror" src="suicide squad.jpg"/>, document.getElementById("movie2"));
-      ReactDOM.render(<Movie title="Croods" genre="Familie" src="croods.jpg"/>, document.getElementById("movie3"));
+      ReactDOM.render(<Movie title="Avatar" genre="Action or Familie" src="images/avatar.jpg"/>, document.getElementById("movie1"));
+      ReactDOM.render(<Movie title="Suicide Squad" genre="Action or Horror" src="images/suicide squad.jpg"/>, document.getElementById("movie2"));
+      ReactDOM.render(<Movie title="Croods" genre="Familie" src="images/croods.jpg"/>, document.getElementById("movie3"));
    </script>
 </body>
 </html>
