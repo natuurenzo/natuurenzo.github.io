@@ -7,14 +7,15 @@
   height:600px;
 }
 #memory_board > div {
-  width:75px;
-  height:75px;
+  width:100px;
+  height:100px;
   background-color:#eee;
   color:#000;
   cursor:pointer;
   border: 2px solid #ccc;
   border-radius:5px;
   text-align:center;
+  padding:15px;
 }
 
 @keyframes bg {
