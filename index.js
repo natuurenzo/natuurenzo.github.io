@@ -1,4 +1,4 @@
 window.onload = function(){
  var imgprops = document.getElementById("imgprops").src;
- imgprops.class = "img img-responsive img-rounded";
+ imgprops.className = "img img-responsive img-rounded";
 }
