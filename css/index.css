@@ -6,6 +6,16 @@
   width:75%;
   height:600px;
 }
+#memory_board > div {
+  width:75px;
+  height:75px;
+  background-color:#eee;
+  color:#000;
+  cursor:pointer;
+  border: 2px solid #ccc;
+  border-radius:5px;
+  text-align:center;
+}
 
 @keyframes bg {
   0%{background-color:green;}
